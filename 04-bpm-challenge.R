@@ -13,7 +13,7 @@ sourceCpp("kalmanCpp.cpp")
 
 
 # Get the signal
-signal <- load.wave("data/wfd-challenge.wav") # audio signal
+signal <- load.wave("data/04-wfd-challenge.wav") # audio signal
 signal <- (signal[1,] + signal[2,])/2
 fs     <- 44100 # sampling rate
 
